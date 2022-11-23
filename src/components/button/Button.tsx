@@ -6,8 +6,8 @@ type Props = {
 
 export const Button = ({ title }: Props) => {
   return (
-    <div className={styles.container}>
+    <button className={styles.container}>
       <h1 className={styles.content}>{title}</h1>
-    </div>
+    </button>
   );
 };

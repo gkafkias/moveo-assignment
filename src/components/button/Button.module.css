@@ -5,6 +5,7 @@
   border: 1.5px solid var(--color-white);
   border-radius: 27px;
   cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
   transition: border-color 0.3s ease-in-out;
 }
 
