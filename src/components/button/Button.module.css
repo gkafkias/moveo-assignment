@@ -1,0 +1,37 @@
+.container {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 20px;
+  border: 1.5px solid var(--color-white);
+  border-radius: 27px;
+  cursor: pointer;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.content {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 18.5px;
+  color: var(--color-white);
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover States. */
+.container:hover {
+  border-color: var(--color-primary);
+}
+
+.container:hover .content {
+  color: var(--color-primary);
+}
+
+/* Pressed States. */
+.container:active {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.container:active .content {
+  color: var(--color-white);
+  transition: color 0s ease-in-out;
+}

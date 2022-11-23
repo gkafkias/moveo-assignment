@@ -1,0 +1,37 @@
+.container {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.7) 0%,
+    var(--color-light-grey) 43.73%,
+    var(--color-primary-light) 100%
+  );
+  padding: 16px 20px;
+  border-radius: 20px;
+}
+
+.title {
+  flex-grow: 1;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 19px;
+  color: var(--color-primary);
+}
+
+.topContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 8px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
+}

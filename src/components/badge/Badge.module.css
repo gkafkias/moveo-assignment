@@ -1,0 +1,13 @@
+.container {
+  background: var(--color-primary-light);
+  border-radius: 27px;
+  padding: 4px;
+  margin: auto;
+}
+
+.content {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 10px;
+  color: var(--color-white);
+}
