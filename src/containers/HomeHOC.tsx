@@ -11,11 +11,11 @@ export const HomeHOC = () => {
     fetcher
   );
 
-  if (error) return <div>Failed to load. Please refresh your page.</div>;
-
   return (
     <div className="home">
+      {error && <div>Failed to load. Please refresh your page.</div>}
       {data &&
+        !error &&
         data.map((user: User) => <ProfileCard key={user.id} {...user} />)}
     </div>
   );
